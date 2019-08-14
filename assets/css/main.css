@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: #455a64;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 1.4;
+}
+
+h1,
+h2 {
+  text-rendering: optimizeLegibility;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 6vw;
+  color: #fff;
+}
+
+h2 {
+  font-size: 4vw;
+  color: #cfd8dc;
+}
